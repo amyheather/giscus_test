@@ -23,3 +23,5 @@ Trying out `giscus` for comments on Quarto sites.
         async>
 </script>
 ```
+
+4. I created a basic Quarto site hosted on GitHub pages with GitHub actions.

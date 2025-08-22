@@ -1,0 +1,8 @@
+project:
+  type: website
+  preview:
+    browser: true
+
+website:
+  title: "Giscus test"
+  
