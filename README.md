@@ -25,3 +25,24 @@ Trying out `giscus` for comments on Quarto sites.
 ```
 
 4. I created a basic Quarto site hosted on GitHub pages with GitHub actions.
+
+5. I tried adding the raw script above which worked perfectly, locally, without deployment.
+
+6. I then edited _quarto.yml to do it via Quarto. And that worked fine too:
+
+```
+website:
+  title: "Giscus test"
+  comments:
+    giscus:
+      repo: "amyheather/giscus_test"
+      repo-id: "R_kgDOPiZ0gg"
+      category: "Announcements"
+      category-id: "DIC_kwDOPiZ0gs4Cuec6"
+      mapping: "pathname"
+      reactions-enabled: true
+      loading: "lazy"
+      input-position: "bottom"
+      theme: "preferred_color_scheme"
+      language: "en"
+```

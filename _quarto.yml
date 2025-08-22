@@ -5,4 +5,15 @@ project:
 
 website:
   title: "Giscus test"
-  
+  comments:
+    giscus:
+      repo: "amyheather/giscus_test"
+      repo-id: "R_kgDOPiZ0gg"
+      category: "Announcements"
+      category-id: "DIC_kwDOPiZ0gs4Cuec6"
+      mapping: "pathname"
+      reactions-enabled: true
+      loading: "lazy"
+      input-position: "bottom"
+      theme: "preferred_color_scheme"
+      language: "en"
